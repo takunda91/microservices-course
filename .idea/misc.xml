@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mssc-beer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-beer-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-beer-inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-beer-service/SpringRabbitMq/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRabbitMq/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/beer-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/service-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-beer-inventory-failover/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-config-server/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

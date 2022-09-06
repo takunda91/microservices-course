@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringRabbitMq/SpringRabbitMq.iml" filepath="$PROJECT_DIR$/SpringRabbitMq/SpringRabbitMq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beer-gateway/beer-gateway.iml" filepath="$PROJECT_DIR$/beer-gateway/beer-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-beer-inventory-failover/mssc-beer-inventory-failover.iml" filepath="$PROJECT_DIR$/mssc-beer-inventory-failover/mssc-beer-inventory-failover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-beer-inventory-service/mssc-beer-inventory-service.iml" filepath="$PROJECT_DIR$/mssc-beer-inventory-service/mssc-beer-inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-beer-order-service/mssc-beer-order-service.iml" filepath="$PROJECT_DIR$/mssc-beer-order-service/mssc-beer-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-beer-service/mssc-beer-service.iml" filepath="$PROJECT_DIR$/mssc-beer-service/mssc-beer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-config-server/mssc-config-server.iml" filepath="$PROJECT_DIR$/mssc-config-server/mssc-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-ws.iml" filepath="$PROJECT_DIR$/mssc-ws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-eureka/service-eureka.iml" filepath="$PROJECT_DIR$/service-eureka/service-eureka.iml" />
+    </modules>
+  </component>
+</project>
