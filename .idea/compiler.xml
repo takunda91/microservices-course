@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="beer-gateway" />
         <module name="SpringRabbitMq" />
-        <module name="mssc-beer-inventory-failover" />
         <module name="service-eureka" />
         <module name="mssc-config-server" />
       </profile>
@@ -18,9 +17,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.3.0.Final/mapstruct-processor-1.3.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/com/jolira/hickory/1.0.0/hickory-1.0.0.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.3.0.Final/mapstruct-1.3.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar" />
@@ -31,10 +30,11 @@
           <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" />
         </processorPath>
         <module name="mssc-beer-service" />
         <module name="mssc-beer-order-service" />
+        <module name="mssc-beer-inventory-failover" />
         <module name="mssc-beer-inventory-service" />
       </profile>
     </annotationProcessing>
@@ -54,7 +54,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringRabbitMq" options="-parameters" />
       <module name="beer-gateway" options="-parameters" />
-      <module name="mssc-beer-inventory-failover" options="-parameters" />
+      <module name="mssc-beer-inventory-failover" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="mssc-beer-inventory-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="mssc-beer-order-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
       <module name="mssc-beer-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
